@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Roboto, Inter, Arial, Helvetica, sans-serif;
+}
+
+.flex-box{
+    display: flex;
+}
+
+/* navbar */
+.navbar-container{
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0rem 10rem;
+    position: fixed;
+    background-color: white;
+}
+
+.navbar-container img{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.navbar-menu{
+    list-style: none;
+    margin-top: 23px;
+    
+}
+
+.navbar-menu li{
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #6E7275;
+}
+
+/* Header */
+.header-container{
+    background-color: #EFF8FF;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10rem;
+    width: 100%;
+    height: 640px;
+}
+
+.header-item{
+    width: 50%;
+}
+
+.header-item h1{
+    font-family: 'Sora';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #293145;
+}
+
+.header-container img{
+    width: 500px;
+    height: 500px;
+}
+
+.header-item button{
+    width: 200px;
+    height: 56px;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    border: none;
+    background: #0F9AFE;
+    border-radius: 50px;
+
+    font-family: 'Inter';
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+/* How to */
+.howto-container{
+    flex-direction: column;
+    text-align: center; 
+}
+
+.howto-container h2{
+    font-family: 'Sora';
+    color: #293145;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.howto-item{
+    margin: 0 auto;
+}
+
+.howto-grandson{
+    margin: 100px;
+    text-align: center;
+    width: 15rem;
+    padding: 10px;
+}
+
+.howto-grandson h3{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #293145;
+    padding: 10px;
+}
+
+.howto-grandson p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6E7275;
+    padding: 10px;
+}
+
+.howto-grandson img{
+    width: 57.5px;
+    height: 57.5px;
+}
+
+/* App */
+.app-item h2{
+    font-family: 'Sora';
+    color: #293145;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.app-item p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6E7275;
+    padding: 10px;
+}
+
+.app-container .app-img{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.app-item{
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 20rem;
+}
+
+.app-container{
+    padding: 10rem;
+    background-color: #EFF8FF;
+}
+
+/* Plans */
+.plan-container{
+    flex-direction: column;
+    text-align: center;
+}
+
+.plan-container h2{
+    font-family: 'Sora';
+    color: #293145;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.plan-container p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6E7275;
+    padding: 10px;
+}
+
+.plan-item{
+    margin: 0 auto;
+}
+
+.cards{
+    width: 370px;
+    height: 471px;
+    margin: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.cards h3{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.cards button{
+    width: 230px;
+    height: 43px;
+    margin: 0 auto;
+    background: #0F9AFE;
+    border: none;
+    box-shadow: 1px 3px 10px rgba(17, 37, 56, 0.5);
+    border-radius: 50px;
+    color: white;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.card-price{
+    margin: 0 auto;
+    height: 50px;
+}
+
+.card-price h5{
+    align-self: flex-end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.card-price h2{  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.card-price h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#mid-card{
+    background-color: #293145;
+    color: white;
+    border-radius: 8px;
+}
+
+#mid-card .card-price h2{
+    color: white;
+}
+
+.pref{
+    background-color: #0F9AFE;
+    width: 164px;
+    height: 27px;
+    margin: 0 auto;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pref h4{
+    letter-spacing: 0.2em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.texts-plan{
+    width: 30rem;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+/* Contact */
+.contact{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 382px;
+    background-image: url('/rachi/assets/images/Group\ 33554.png');
+    background-position: center;
+}
+
+.texts-contact h2{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.texts-contact p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #DBDBDB;
+}
+
+.texts-contact{
+    width: 528px;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-item button{
+    width: 118px;
+    height: 38px;
+    background-color: #0F9AFE;
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+
+.contact-item input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.contact-item input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #293145;
+    margin-top: 40px;
+}
